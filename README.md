@@ -48,7 +48,7 @@ Once the transaction is confirmed on the blockchain, your tokens will be staked,
 
 - git clone [https://github.com/jibchain-net/Staking](https://github.com/jibchain-net/Staking)
 
-- cd dexola-camp_dapp
+- cd Staking
 
 - npm install
 
