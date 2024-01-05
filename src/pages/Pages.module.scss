@@ -1,0 +1,55 @@
+@import "../sass/utils/variables";
+@import "../sass/utils/mixins";
+
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #2f2f2f;
+    height: 35px;
+  }
+
+  &_title {
+    font-family: var(--font-family--kanit-regular);
+    font-size: 18px;
+    letter-spacing: -0.36px;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 24px;
+      letter-spacing: -0.48px;
+    }
+  }
+
+  &_rate_title {
+    color: var(--color-text-desc);
+  }
+
+  &_rate_value {
+    font-family: var(--font-family--roboto-mono-bold);
+    font-size: 18px;
+    line-height: 1.4;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 20px;
+    }
+  }
+
+  &_rate_desc {
+    font-size: 12px;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 16px;
+    }
+  }
+
+  &_submit_btn {
+    @include button;
+    margin-top: auto;
+  }
+}
