@@ -22,7 +22,7 @@ module.exports = {
   },
   namedAccounts: {
     deployer: {
-      default: "0x4Fbd49c841c2f891b8e04B887B9C5035BE7c7209",
+      default: "0x506ECB4c214c7EB712dc709CC4789dfA58CF513f",
     },
     rewardWallet: {
       default: 1,
@@ -33,7 +33,7 @@ module.exports = {
   },
   networks: {
     jbc: {
-      url: "https://rpc-l1.jibchain.net",
+      url: "https://rpc-eu.jibchain.net",
       chainId: 8899,
       accounts: [process.env.PRIVATE_KEY],
       live: true,
